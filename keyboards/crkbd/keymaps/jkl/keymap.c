@@ -190,8 +190,8 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
           register_code(KC_LANG2);
           unregister_code(KC_LANG2);
           // win
-          register_code(KC_MHEN);
-          unregister_code(KC_MHEN);
+          register_code(KC_F13);
+          unregister_code(KC_F13);
         }
         lower_pressed = false;
       }
@@ -212,8 +212,8 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
           register_code(KC_LANG1);
           unregister_code(KC_LANG1);
           // win
-          register_code(KC_HENK);
-          unregister_code(KC_HENK);
+          register_code(KC_F14);
+          unregister_code(KC_F14);
         }
         raise_pressed = false;
       }
