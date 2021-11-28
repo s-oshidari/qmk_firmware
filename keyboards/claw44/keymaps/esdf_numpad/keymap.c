@@ -87,6 +87,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 
+// QMK Firmware で Raise/Lower と変換/無変換を同じキーに割り当てる
+// https://okapies.hateblo.jp/entry/2019/02/02/133953
+
 static bool lower_pressed = false;
 static bool raise_pressed = false;
 
